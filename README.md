@@ -1,3 +1,12 @@
+---
+title: Cricket Analytics Dashboard
+emoji: 🏏
+colorFrom: green
+colorTo: blue
+sdk: docker
+pinned: true
+---
+
 # 🏏 Real-Time Cricket Analytics Dashboard
 
 A live IPL/cricket match analytics dashboard with ball-by-ball simulation, win probability model, and rich interactive visualizations — all running in Streamlit.

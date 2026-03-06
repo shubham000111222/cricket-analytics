@@ -401,7 +401,8 @@ def _format_ball(ball: dict) -> str:
         ball_badge = f'<span class="ball-W">W</span>'
         desc = f"OUT! {striker} — {wkt_type}. Bowled by {bowler}."
     elif extra > 0:
-        ball_badge = f'<span class="ball-0">{'nb' if ball.get('outcome') == 'nb' else 'wd'}</span>'
+        extra_type = "nb" if ball.get("outcome") == "nb" else "wd"
+        ball_badge = f'<span class="ball-0">{extra_type}</span>'
         desc = f"Extra! Bowled by {bowler}."
     elif r == 4:
         ball_badge = f'<span class="ball-4">4</span>'
